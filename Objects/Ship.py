@@ -39,9 +39,9 @@ class Ship(RoomObject):
         Keeps the ship inside the room
         """
         if self.y < 0:
-            self.y = 0
-        elif self.y + self.height> Globals.SCREEN_HEIGHT:
             self.y = Globals.SCREEN_HEIGHT - self.height
+        elif self.y + self.height> Globals.SCREEN_HEIGHT:
+            self.y = 0
 
     def step(self):
         """
