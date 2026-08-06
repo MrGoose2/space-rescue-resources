@@ -1,4 +1,5 @@
 from GameFrame import RoomObject, Globals
+from Objects.Hud import Score
 
 class Laser(RoomObject):
     """

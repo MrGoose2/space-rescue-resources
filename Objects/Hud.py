@@ -18,7 +18,7 @@ class Score(TextObject):
         self.bold = False
         self.update_text()
 
-    def update_scrpe(self, change):
+    def update_score(self, change):
         """
         Updates the score and redraws the text
         """
