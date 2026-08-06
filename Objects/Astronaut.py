@@ -1,5 +1,4 @@
 from GameFrame import RoomObject
-from Objects.Hud import Score
 
 class Astronaut(RoomObject):
     """
@@ -37,7 +36,7 @@ class Astronaut(RoomObject):
         # ship collision
         if other_type == "Ship":
             self.room.delete_object(self)
-            self.room.update_score(50)
+            self.room.score.update_score(50)
 
     def outside_of_room(self):
         """
