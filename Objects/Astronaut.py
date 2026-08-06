@@ -1,4 +1,5 @@
 from GameFrame import RoomObject
+from Objects.Hud import Score
 
 class Astronaut(RoomObject):
     """
