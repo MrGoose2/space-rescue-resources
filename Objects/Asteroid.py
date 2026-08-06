@@ -1,6 +1,5 @@
 from GameFrame import RoomObject, Globals
 import random
-from Objects.Hud import Score
 
 class Asteroid(RoomObject):
     """
